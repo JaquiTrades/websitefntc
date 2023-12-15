@@ -3,7 +3,7 @@
     padding: 0;
     color:rgb(255, 255, 255);
     font-size: 125%;
-    box-sizing: border-box;
+    box-sizing: content-box;
 
 }
 
@@ -12,7 +12,7 @@ p {
   background-color: rgba(0, 0, 0, 0.644);
   background-blend-mode: darken;
   color: rgb(255, 255, 255);
-  box-sizing: content-box;
+  box-sizing:border-box;
   width: 100%;
   height: 50%;
   margin: 20px;
@@ -31,27 +31,22 @@ html body {
 }
 
 h1, h2, h3 {
-    margin-bottom: 35px ;
+    margin-bottom:35px;
     
+}
+h1 {
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    background-color: rgba(0, 0, 0, 0.423);
+    text-shadow: 2px 2px 2px rgba(255, 213, 130, 0.521);
+
 }
 
 .level-0 {
     width: 45%;
     /* margin: 0 auto; */
     /* display: block; */
-}
-
-audio {
-    box-sizing: border-box;
-    opacity: .2;
-    
-}
-
-.pool {
-    width: 55%;
-    height:30%;
-    margin: 0 auto;
-    display: block;
 }
 
 a {
