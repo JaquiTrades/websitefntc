@@ -3,7 +3,7 @@
     padding: 0;
     color:rgb(255, 255, 255);
     font-size: 125%;
-    box-sizing: content-box;
+    box-sizing: border-box;
 
 }
 
